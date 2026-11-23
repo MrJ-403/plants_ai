@@ -13,10 +13,10 @@ def clean_and_isolate_leaf(img, verbose=False) -> cv2.typing.MatLike:
     **Note:**
         The image must contain one leaf only, otherwise the model will return other objects or ignore the rest of the leaves.
 
-    :param `img`: the image that contains one leaf.
-    :type `img`: MatLike
-    :param `verbose`: decides if you want the model to be verbose about the logs or silent.
-    :type `verbose`: Boolean
+    :param img: the image that contains one leaf.
+    :type img: MatLike
+    :param verbose: decides if you want the model to be verbose about the logs or silent.
+    :type verbose: Boolean
     :returns: object representing the image with a black background.
     :rtype: MatLike
 
